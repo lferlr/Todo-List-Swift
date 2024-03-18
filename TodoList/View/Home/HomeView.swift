@@ -34,7 +34,7 @@ struct HomeView: View {
                     Section {
                         ForEach(reminderList) { reminders in
                             NavigationLink {
-                                ReminderListRowView(reminderList: reminders)
+                                ReminderListView(reminderList: reminders)
                             } label: {
                                 ReminderListRowView(reminderList: reminders)
                             }
